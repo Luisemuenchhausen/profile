@@ -1,0 +1,97 @@
+h1, h2 {
+  color: rgb(59, 138, 184);
+  font-family: "Fraunces", serif;
+  font-size: 26px
+}
+
+.container {
+  text-align: center;
+  width: 55%;   /* This sets the width */
+  margin: 10px auto; /* This automatically sets left/right margins */
+}
+
+.profile_picture {
+  width: 180px;
+  border-radius: 50%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  color: #3d98cc;
+  background-color: aliceblue;
+}
+
+p {
+  font-size: 18px;
+}
+
+.fa-brands fa-instagram {
+  font-size: 18px;
+  box-shadow: 2px 2px 5px;
+}
+
+.links {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #f391de;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid f391de;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 10px;
+}
+
+.links:hover {
+  background-color: #f364c3;
+  border-color: #f364c3;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.card {
+  background: rgba(198, 241, 220, 0.808);
+  padding: 10px 60px 10px 60px;
+  /* border: 1px solid rgba(236, 200, 225, 0.76); */
+  margin: 15px;
+  border-radius: 2%;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.164);
+}
+
+ul i {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+a {
+  color: #f364c3;
+}
+
+.change_font {
+  font-family: "Fraunces", serif;
+  color: rgb(59, 138, 184);
+  font-weight: 700;
+}
+
+.est {
+  color: #f364c3;
+  font-size: 13px;
+}
